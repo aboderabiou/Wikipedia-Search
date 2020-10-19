@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <h2 id="wikipedia-logo" class="text-center my-5">Wikipedia Search</h2>
+
+        <div class="form-content d-flex justify-content-center">
+            <form id="searchForm">
+                <div class="form-group d-flex">
+
+                  <input type="search" class="form-control" width="600px" id="searchInput" required placeholder="Search Wikipedia" autocomplete="on" style="width: 500px;">
+                  
+                  <button type="submit" id="submitButton" class="btn btn-outline-secondary px-4">Search</button>
+
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <a title="Avoir au Hazard" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="randomSearchBtn" class="btn btn-light">Get Random</button></a>
+        </div>
+
+        <ul id="pageList">
+        </ul>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

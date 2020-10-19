@@ -1,0 +1,38 @@
+body{
+  font-family: 'Playfair Display SC', serif;
+}
+#wikipedia-logo{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 50px;
+}
+#pageList{
+  width: auto;
+  margin-bottom: 50px;
+  margin:auto;
+  list-style:none;
+  padding-left:0 !important;
+  
+}
+
+#pageList>h3:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+li>p{
+  color: black;
+  word-wrap: break-word;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{  
+  border-style: solid;
+  border-width: 3px;
+  border-color:black;
+}
